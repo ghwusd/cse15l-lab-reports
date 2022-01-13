@@ -1,5 +1,7 @@
 Hello world!
 
+This is some new changes to the index.md file :)
+
 *italics*
 
 **Bold**
