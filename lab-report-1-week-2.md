@@ -29,7 +29,7 @@ If its your first time logging in, type `yes` to accept. Note: There won't be an
 
 There are a few common terminal commands. For example `cd`, `ls`, `pwd`, `mkdir`, and `cp`. Here are some examples of it running.
 
-![Image](Termainal_Commands.png)
+![Image](Terminal_Commands.png)
 
 <br>
 <font size = "3"> 
