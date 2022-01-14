@@ -4,7 +4,7 @@
 <u>Lab Report 1</u> 
 </font>
 </div>
-
+<br>
 <font size = "5"> 
 <u>Step 1: Download Visual Studio Code 1</u> 
 </font>
