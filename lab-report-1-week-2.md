@@ -1,4 +1,4 @@
-### Lab Report 1
+<p align="center"> ###  Lab Report 1 </p>
 
 <u> Step 1: Installing Visual Studio Code </u>
 
