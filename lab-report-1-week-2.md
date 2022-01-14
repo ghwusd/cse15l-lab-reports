@@ -1,4 +1,4 @@
-### <div align="center">Lab Report 1</div>
+### Lab Report 1
 
 <u> Step 1: Installing Visual Studio Code </u>
 
