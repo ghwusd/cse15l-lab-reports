@@ -51,3 +51,7 @@ Now you can access the server without having to type your password each time.
 Although logging in and out has been made easier, it is sometimes still tedious just login and run a single command. Therefore, we can run commands such as `ssh <account>@ieng6.ucsd.edu ls` to access the server without fully logging in. The following is an example.
 
 ![Image](Pleasant_Remote.png)
+
+Additionally, you can link commands together. Rather running one command after another, you can write them all in a single line. The following command copies a file and runs it on the server. This technique saves approximately 8 keystrokes because you can copy paste strings of commands and also not have to exit the server.
+
+![Image](RemoteMovingFile.png)
