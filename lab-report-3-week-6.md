@@ -1,6 +1,6 @@
 # Lab Report 3
 
-# Choice 1: Streamling ssh Configuration
+## Choice 1: Streamling ssh Configuration
 
 The first step I took was going to the `.ssh` directory on my local computer and typing the command `touch config`.
 This command creates a new file named config.
