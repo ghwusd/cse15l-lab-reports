@@ -1,5 +1,8 @@
 # Lab Report 3
 
+Here is the link to [my github repository](https://github.com/ghwusd/markdown-parse) 
+and the link to [the one I reviewed](https://github.com/samw0627/markdownparse2) in week 7.
+
 ## JUnit Code:
 
 My Implementaiton Test Cases:
