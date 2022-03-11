@@ -30,33 +30,27 @@ Then, the program would continue searching for links.
 
 ## Test 516
 
-Here is test 516:
+Here is test 487:
 
-![Image](516md.png)
+![Image](487md.png)
 
 Here is the actual output:
 
-![Image](516output.png)
+![Image](487output.png)
 
 Here is what my markdown-parse returns:
 
-![Image](516mine.png)
+![Image](487mine.png)
 
 Here is what the cloned markdown-parse returns:
 
-![Image](516cloned.png)
+![Image](487cloned.png)
 
-As you can see both versions of markdown-parse are wrong. The real link is `/url`.
-However both return `moon.jpg`.
-This test showcases that images can also be clicked as links.
-The first code change I would make is to implement image detection.
-As my markdown-parse returned `moon.jpg` this implies, the program still believed `![moon](moon.jpg)` was a link. 
-I would do this by checking for exclamation marks infront of potential links.
-After that, I will look for every single image and check if there are appropriate brackets surrounding that image followed by a set of parenthesis.
-If all this is fulfilled, the text contained within the parenthsis is a link.
-
-
-
+As you can see my mark-down failed this test case.
+The content within the parenthesis isn't considered a link because it contains a space.
+Therefore, the code change I would make is to first use the method `trim()` to remove white space at the beginning and end of the potential link.
+Then, I would check for if there was a white space still within the potential link.
+If there is, that means it isn't a link. If there isn't, that means it is still a potential link.
 
 
 
